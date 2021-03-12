@@ -1,0 +1,138 @@
+/*👉*{
+    outline: 1px solid purple;
+}👈*/
+
+/*👉body{
+    background: gray;
+}👈*/
+
+
+/* align-items: centers vertical */
+/* justify-conent: centers horizantal */
+
+/*👉@media (max-width: 800px) {
+    .container.content{
+    flex-direction: column;
+    }
+}👈*/
+
+/*👉@media only screen and (max-width: 480px) {
+    .sm-4{
+    flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .med-2{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .lg-1{
+        width: 25%;
+    }
+}👈*/
+
+
+
+/* Navbar */
+button.btn{
+    background-image: url("magnifier.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    
+}
+
+.navbar-brand{
+    background-image: url("mx-flag-icon.png") ;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+}
+
+#navbarSupportedContent{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* intro */
+#header-box{
+    background-image: url("catrina-black-bright.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+    color: rgb(216, 213, 13);
+}
+
+h2.intro-text{
+    font-family:  'Aladin', cursive;
+    font-size: 46px;
+    }
+
+
+/* jumbotron */
+h1.welcome-spanish, h2.display{
+    text-align: center;
+    font-family:  'Aladin', cursive;
+}
+
+
+/*main*/
+.img-fluid{
+    width: 100%;
+    max-height: 233px;
+}
+
+h5.title{
+    display: flex;
+    justify-content: center; 
+}
+
+
+/* footer  */
+.card{
+    background: rgb(168, 72, 72);
+}
+
+.container.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.icon{
+    height: 16px;
+    width: 16px;
+}
+
+.card-body{
+    padding: 0px 0px 5px;
+}
+
+.quote{
+    margin: 0px;
+    font-size: 30px;
+}
+
+div.card{
+    font-family: 'Euphoria Script', cursive;
+}
+
+.blockquote{
+    color: blanchedalmond;
+}
+
+.blockquote-footer{
+    color: blanchedalmond;
+    padding: 2px 0px 
+    
+}
